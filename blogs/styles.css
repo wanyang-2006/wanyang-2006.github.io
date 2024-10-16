@@ -1,0 +1,210 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+}
+.img{
+    image-rendering:crisp-edges;
+}
+body{
+    font-family:'Times New Roman', Times, serif ;
+    background-image: url(./image/background01.jpg);
+    background-color: linear-gradient(to bottom,rgb(0,72,148),rgb(1,79,170));
+    image-rendering: crisp-edges;
+    background-repeat: no-repeat;
+    background-size:auto;
+}
+
+header {
+    background: linear-gradient(to bottom right, #ff7e5f, #feb47b, #6dd5ed, #ff758e);
+    color: rgb(245, 245,213);
+    padding: 30px;
+    text-align: center;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: blink;
+    margin-right: 15px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffc107;
+}
+
+/* 左侧导航栏样式 */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -40px;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+/* 导航栏中的链接样式 */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* 鼠标悬停在链接时的效果 */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* 关闭按钮样式 */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* 主内容区域样式 */
+#main {
+    transition: margin-left 0.5s;
+    padding: 10px;
+
+}
+
+.content {
+    margin-left: 200px;
+    padding: 20px;    
+
+}
+
+.content1 {
+    margin-top: 20px;
+    height:60rem;
+    width:78rem;
+    border-radius: 5px;
+    background-color:antiquewhite;
+}
+.aisi{
+text-align: right;
+}
+
+.content2{
+    margin-top: 20px;
+    height:20rem;
+    width:78rem;
+    background-color:rgb(215, 250, 220);
+    border-radius: 5px;
+}
+
+.content3{  border-radius: 5px;
+    margin-top: 20px;
+    height:18rem;
+    width:78rem;
+    background-color:rgb(32, 155, 161);
+}
+
+.content4{  border-radius: 5px;
+    margin-top: 20px;
+    height:12rem;
+    width:78rem;
+    background-color:rgb(107, 156, 23);
+}
+
+.content5{  border-radius: 5px;
+    margin-top: 20px;
+    height:20rem;
+    width:78rem;
+    background-color:rgb(158, 133, 18);
+}
+
+.backTop{
+    position: fixed;
+    bottom: 250px;
+    right: 20px;
+    z-index: 999;
+    width: 35px;
+    height: 35px;
+    background-color: deepskyblue;
+    line-height: 35px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    border-radius: 50%;
+    transition: all linear 0.5s;
+    cursor: pointer;
+
+}
+
+
+
+.image_2{
+    background-image: url(./image/pic2.jpg);
+    background-position: 0 0;
+    background-attachment: fixed;
+    background-size: cover;
+    height:680px;
+    width:100%;
+
+}
+
+.image_3{
+    background-image: url(./image/pic3.jpg);
+    background-position: 0 0;
+    background-attachment: fixed;
+    background-size: cover;
+    height:680px;
+    width:100%;
+
+}
+
+.image_4{
+    background-image: url(./image/pic4.jpg);
+    background-position: 0 0;
+    background-attachment: fixed;
+    background-size: cover;
+    height:680px;
+    width:100%;
+
+}
+
+.word{
+    position:relative;
+    top:480px;
+    font-size: 55px;
+    color:white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.bg{
+    text-align: center;
+    font-size:46px;
+    font-weight: bolder;
+    height:220px;
+    line-height: 220px;
+    background-color: rgb(131, 134, 204);
+    color:white;
+
+}
